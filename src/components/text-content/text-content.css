@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Cousine:wght@400;700&family=Montserrat:wght@300;400;500&display=swap");
+
+.primary-heading {
+  font-family: "Cousine", monospace;
+  font-weight: 600;
+  margin: 10px 0;
+}
+/* According to the instructions, the hero font-size is 64px. It just does not line up with the design*/
+.hero-text {
+  font-size: 40px;
+}
+
+@media (min-width: 768px) {
+  .hero-text {
+    font-size: 54px;
+  }
+}
+
+.section-text {
+  font-size: 30px;
+}
+
+@media (min-width: 768px) {
+  .section-text {
+    font-size: 40px;
+  }
+}
+.secondary-heading {
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 0;
+  max-width: 410px;
+}
+.content {
+  font-family: "Montserrat", sans-serif;
+  line-height: 2;
+  max-width: 410px;
+  font-weight: 500;
+}

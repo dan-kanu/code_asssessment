@@ -1,0 +1,75 @@
+/* According to the instructions, the hero font-size is 64px. It just does not line up with the design*/
+
+.hero-container {
+  background: linear-gradient(
+    180deg,
+    rgba(9, 21, 35, 1) 0%,
+    rgba(14, 37, 63, 1) 91%
+  );
+  padding: 20px;
+  overflow: hidden;
+  max-height: 700px;
+}
+
+.hero-content-wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .hero-content-wrapper {
+    margin: 60px auto;
+  }
+}
+
+.hero-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-ctas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .hero-ctas {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.hero-image {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .hero-image {
+    display: flex;
+  }
+}
+
+.hero-link {
+  border-bottom: 1px solid #fff;
+  text-decoration: none;
+  color: #fff;
+  margin: 20px;
+  transition: 0.3s;
+}
+
+.hero-link:hover {
+  border-bottom: 1px solid #01fdab;
+  text-decoration: none;
+  color: #01fdab;
+  transition: 0.3s;
+}

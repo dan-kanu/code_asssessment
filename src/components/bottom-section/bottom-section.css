@@ -1,0 +1,32 @@
+.bottom-section-container {
+  display: flex;
+
+  background: linear-gradient(
+      to right,
+      rgb(115 115 115 / 0%),
+      rgb(42 57 101 / 35%)
+    ),
+    url("../../images/Phone.jpg");
+  background-size: cover;
+  padding: 80px 20px;
+  justify-content: center;
+}
+
+.bottom-section-content-wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  width: 100%;
+}
+
+.bottom-section-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  padding: 0 20px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  max-width: 370px;
+  margin: 0 auto;
+}
