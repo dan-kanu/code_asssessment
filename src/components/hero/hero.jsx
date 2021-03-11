@@ -27,7 +27,7 @@ function Hero() {
               }
               label="Download Now"
             />
-            <a className="hero-link" href="#">
+            <a className="hero-link" href="/#">
               Learn More
             </a>
           </div>
