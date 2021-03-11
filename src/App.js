@@ -1,5 +1,3 @@
-import logo from "./images/site_logo.svg";
-
 import "./App.css";
 import Hero from "./components/hero/hero";
 import Footer from "./components/footer/footer";
@@ -8,7 +6,7 @@ import BottomSection from "./components/bottom-section/bottom-section";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Hero />
       <MidSection/>
       <BottomSection/>

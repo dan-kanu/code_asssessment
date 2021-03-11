@@ -6,7 +6,7 @@ function Nav(props) {
   const { onclose } = props;
   return (
     <div className="nav-container">
-      <img className="close-icon" src={closeIcon} onClick={onclose} width="40px" />
+      <img className="close-icon" src={closeIcon} onClick={onclose} width="40px" alt="Menu Close" />
       <nav className="nav">
         <ul>
           <li>
